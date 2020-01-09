@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+.main-products {
+  display: flex;
+  box-sizing: border-box;
+}
+#meals-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  border-left: 1px solid rgba(211, 211, 211, 0.5);
+  box-sizing: border-box;
+}
+.single-meal {
+  margin: 10px;
+}
+.single-meal img {
+  max-height: 450px;
+  max-width: 100%;
+  object-fit: contain;
+}
+.side-draw {
+  width: 186px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin-top: 147px;
+}
+
+.side-draw ul {
+  list-style: none;
+}

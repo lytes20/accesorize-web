@@ -1,0 +1,68 @@
+import {
+  one,
+  two,
+  three,
+  four,
+  five,
+  seven,
+  eight,
+  nine,
+  ten,
+  eleven,
+  twelve,
+  thirteen,
+  fourteen,
+  fifteen,
+  sixteen,
+  seventeen,
+  eighteen,
+  nineteen,
+  twenty,
+  twentyOne,
+  twentyTwo,
+  twentyThree,
+  twentyFour,
+  twentyFive,
+  twentySix,
+  twentySeven,
+  twentyEight,
+  twentyNine,
+  thirty
+} from "./index";
+
+function createData(productName, productImage, price) {
+  return { productName, productImage, price };
+}
+const products = [
+  createData("Frozen yoghurt", one, 20000),
+  createData("Ice cream sandwich", two, 9.0),
+  createData("Eclair", three, 16.0),
+  createData("Cupcake", four, 3.7),
+  createData("Gingerbread", five, 16.0),
+  createData("Gingerbread", seven, 16.0),
+  createData("Gingerbread", eight, 16.0),
+  createData("Gingerbread", nine, 16.0),
+  createData("Gingerbread", ten, 16.0),
+  createData("Gingerbread", eleven, 16.0),
+  createData("Gingerbread", twelve, 16.0),
+  createData("Gingerbread", thirteen, 16.0),
+  createData("Gingerbread", fourteen, 16.0),
+  createData("Gingerbread", fifteen, 16.0),
+  createData("Gingerbread", sixteen, 16.0),
+  createData("Gingerbread", seventeen, 16.0),
+  createData("Gingerbread", eighteen, 16.0),
+  createData("Gingerbread", nineteen, 16.0),
+  createData("Gingerbread", twenty, 16.0),
+  createData("Gingerbread", twentyOne, 16.0),
+  createData("Gingerbread", twentyTwo, 16.0),
+  createData("Gingerbread", twentyThree, 16.0),
+  createData("Gingerbread", twentyFour, 16.0),
+  createData("Gingerbread", twentyFive, 16.0),
+  createData("Gingerbread", twentySix, 16.0),
+  createData("Gingerbread", twentySeven, 16.0),
+  createData("Gingerbread", twentyEight, 16.0),
+  createData("Gingerbread", twentyNine, 16.0),
+  createData("Gingerbread", thirty, 16.0)
+];
+
+export default products;
